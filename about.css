@@ -6,7 +6,7 @@
     position: relative;
     bottom: 68.9px;
 }
-.ubootbutton {
+.freebootbutton {
     font-family: 'Nunito Sans', sans-serif;
     color: black;
     background-color: transparent;
@@ -109,6 +109,6 @@ body{
     overflow-y: auto;
 }
 /* animations */
-.ubootbutton:hover {color: rgb(33, 33, 255);}
+.freebootbutton:hover {color: rgb(33, 33, 255);}
 .srcodebutton:hover {color: rgb(33, 33, 255);}
 .mevsysbutton:hover {color: rgb(33, 33, 255);}
