@@ -3,23 +3,21 @@
 <meta charset="UTF-8">
 <title>MeVsys Website</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="uboot.css">
+<link rel="stylesheet" href="freeboot.css">
 <style>
 </style>
 <body>
 <div class="container">
     <button class="srcodebutton" onclick="window.location.href='https://github.com/orgs/MeVsys/repositories';">Source&nbsp;Code</button>
-    <button class="ubootbutton" onclick="window.location.href='./uboot.html';">Das u-boot</button>
+    <button class="freebootbutton" onclick="window.location.href='./freeboot.html';">Das u-boot</button>
     <button class="aboutbutton" onclick="window.location.href='./about.html';">About</button>
     <button class="mevsysbutton" onclick="window.location.href='./index.html';">MeVsys</button>
 </div>
-<p class="information">Program to boot freebsd on arm devices is named "u-boot"
-but this section is named "Das u-boot" beacuse it is a official name
-for this program. For porting MeVsys kernel you must first port u-boot
-only if your device to port MeVsys doesn't have ported u-boot. After creating
-u-boot port you must create freebsd port for build u-boot in building kernel for MeVsys and
-create config device for MeVsys kernel. I recommend to read guide how to
-port u-boot https://elinux.org/images/2/2a/Schulz-how-to-support-new-board-u-boot-linux.pdf
+<p class="information">Program to boot freebsd on arm devices is named "freeboot".
+For porting MeVsys kernel you must first port freeboot
+only if your device to port MeVsys doesn't have ported freeboot. After creating
+freeboot port you must create freebsd port for build freeboot in building kernel for MeVsys and
+create config device for MeVsys kernel.
 </p>
 <!-- <p class="information4">&#12288;</p>
 <p class="information4">&#12288;</p>
